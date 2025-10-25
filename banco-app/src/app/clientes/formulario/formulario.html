@@ -1,0 +1,16 @@
+
+<form [formGroup]="form" class="form">
+  <mat-form-field><mat-label>Nombre</mat-label><input matInput formControlName="nombre"><mat-error *ngIf="form.get('nombre')?.hasError('required')">Requerido</mat-error></mat-form-field>
+  <mat-form-field><mat-label>Género</mat-label><mat-select formControlName="genero"><mat-option value="M">Masculino</mat-option><mat-option value="F">Femenino</mat-option></mat-select><mat-error *ngIf="form.get('genero')?.hasError('required')">Requerido</mat-error></mat-form-field>
+  <mat-form-field><mat-label>Edad</mat-label><input matInput type="number" formControlName="edad"><mat-error *ngIf="form.get('edad')?.hasError('min')">Mínimo 18</mat-error></mat-form-field>
+  <mat-form-field><mat-label>Identificación</mat-label><input matInput formControlName="identificacion"><mat-error *ngIf="form.get('identificacion')?.hasError('required')">Requerido</mat-error></mat-form-field>
+  <mat-form-field><mat-label>Dirección</mat-label><input matInput formControlName="direccion"><mat-error *ngIf="form.get('direccion')?.hasError('required')">Requerido</mat-error></mat-form-field>
+  <mat-form-field><mat-label>Teléfono</mat-label><input matInput formControlName="telefono"><mat-error *ngIf="form.get('telefono')?.hasError('pattern')">Formato inválido</mat-error></mat-form-field>
+  <mat-form-field><mat-label>Contraseña</mat-label><input matInput type="password" formControlName="contrasena"><mat-error *ngIf="form.get('contrasena')?.hasError('minlength')">Mínimo 4 caracteres</mat-error></mat-form-field>
+  <mat-slide-toggle formControlName="estado">Activo</mat-slide-toggle>
+
+  <div class="actions">
+    <button mat-raised-button color="primary" (click)="save()" [disabled]="form.invalid">Guardar</button>
+    <button mat-button routerLink="/clientes">Cancelar</button>
+  </div>
+</form>

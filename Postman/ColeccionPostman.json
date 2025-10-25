@@ -1,0 +1,134 @@
+{
+  "info": {
+    "name": "Banco API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "banco-api-collection"
+  },
+  "item": [
+    {
+      "name": "Clientes",
+      "item": [
+        {
+          "name": "Crear Cliente",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Juan Perez\",\n  \"genero\": \"M\",\n  \"edad\": 30,\n  \"identificacion\": \"123456789\",\n  \"direccion\": \"Calle 123\",\n  \"telefono\": \"+573001112233\",\n  \"contrasena\": \"1234\"\n}"
+            },
+            "url": { "raw": "http://localhost:5000/clientes", "host": ["http://localhost:5000"], "path": ["clientes"] }
+          }
+        },
+        {
+          "name": "Listar Clientes",
+          "request": { "method": "GET", "url": "http://localhost:5000/clientes" }
+        },
+        {
+          "name": "Obtener Cliente por Id",
+          "request": { "method": "GET", "url": "http://localhost:5000/clientes/{{clienteId}}" }
+        },
+        {
+          "name": "Actualizar Cliente",
+          "request": {
+            "method": "PUT",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"clienteId\": \"{{clienteId}}\",\n  \"nombre\": \"Juan Perez Modificado\",\n  \"genero\": \"M\",\n  \"edad\": 31,\n  \"identificacion\": \"123456789\",\n  \"direccion\": \"Calle 456\",\n  \"telefono\": \"+573009998877\",\n  \"estado\": true\n}"
+            },
+            "url": "http://localhost:5000/clientes/{{clienteId}}"
+          }
+        },
+        {
+          "name": "Eliminar Cliente",
+          "request": { "method": "DELETE", "url": "http://localhost:5000/clientes/{{clienteId}}" }
+        }
+      ]
+    },
+    {
+      "name": "Cuentas",
+      "item": [
+        {
+          "name": "Crear Cuenta",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"clienteId\": \"{{clienteId}}\",\n  \"tipoCuenta\": \"Corriente\",\n  \"saldoInicial\": 500\n}"
+            },
+            "url": "http://localhost:5000/cuentas"
+          }
+        },
+        {
+          "name": "Obtener Cuenta por Id",
+          "request": { "method": "GET", "url": "http://localhost:5000/cuentas/{{cuentaId}}" }
+        },
+        {
+          "name": "Listar Cuentas por Cliente",
+          "request": { "method": "GET", "url": "http://localhost:5000/cuentas/por-cliente/{{clienteId}}" }
+        }
+      ]
+    },
+    {
+      "name": "Movimientos",
+      "item": [
+        {
+          "name": "Crear Movimiento Crédito",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"cuentaId\": \"{{cuentaId}}\",\n  \"tipoMovimiento\": \"Credito\",\n  \"valor\": 200\n}"
+            },
+            "url": "http://localhost:5000/movimientos"
+          }
+        },
+        {
+          "name": "Crear Movimiento Débito",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"cuentaId\": \"{{cuentaId}}\",\n  \"tipoMovimiento\": \"Debito\",\n  \"valor\": 100\n}"
+            },
+            "url": "http://localhost:5000/movimientos"
+          }
+        },
+        {
+          "name": "Listar Movimientos",
+          "request": { "method": "GET", "url": "http://localhost:5000/movimientos?cuentaId={{cuentaId}}" }
+        }
+      ]
+    },
+    {
+      "name": "Reportes",
+      "item": [
+        {
+          "name": "Estado de Cuenta",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:5000/reportes?clienteId={{clienteId}}&desde=2025-01-01&hasta=2025-12-31&incluirPdf=true",
+              "host": ["http://localhost:5000"],
+              "path": ["reportes"],
+              "query": [
+                { "key": "clienteId", "value": "{{clienteId}}" },
+                { "key": "desde", "value": "2025-01-01" },
+                { "key": "hasta", "value": "2025-12-31" },
+                { "key": "incluirPdf", "value": "true" }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    { "key": "clienteId", "value": "" },
+    { "key": "cuentaId", "value": "" }
+  ]
+}

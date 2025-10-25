@@ -1,0 +1,8 @@
+.layout { height: 100vh; }
+.sidenav { width: 240px; padding: 16px; background: #f8f9fb; }
+.logo { font-weight: 800; font-size: 20px; color: #0b3a82; margin-bottom: 16px; }
+.toolbar { background: #0b3a82; color: #fff; }
+.title { font-weight: 600; }
+.spacer { flex: 1; }
+.search { width: 360px; margin-right: 16px; }
+.content { padding: 16px; }

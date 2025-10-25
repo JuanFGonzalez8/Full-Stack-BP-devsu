@@ -1,0 +1,29 @@
+
+<mat-sidenav-container class="layout">
+  <mat-sidenav mode="side" opened class="sidenav">
+    <div class="logo">BANCO</div>
+    <nav>
+      <a mat-button routerLink="/clientes">Clientes</a>
+      <a mat-button routerLink="/cuentas">Cuentas</a>
+      <a mat-button routerLink="/movimientos">Movimientos</a>
+      <a mat-button routerLink="/reportes">Reportes</a>
+    </nav>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary" class="toolbar">
+      <span class="title">Clientes</span>
+      <span class="spacer"></span>
+      <mat-form-field appearance="outline" class="search">
+        <mat-label>Buscar</mat-label>
+        <input matInput [formControl]="search" placeholder="Buscar">
+        <mat-icon matSuffix>search</mat-icon>
+      </mat-form-field>
+      <button mat-raised-button color="accent" routerLink="/clientes/nuevo">Nuevo</button>
+    </mat-toolbar>
+
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

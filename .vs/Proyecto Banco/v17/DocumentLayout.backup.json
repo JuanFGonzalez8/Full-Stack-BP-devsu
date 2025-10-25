@@ -1,0 +1,516 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\dtos\\movimientodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\dtos\\movimientodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\services\\movimientoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\services\\movimientoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\dtos\\cuentadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\dtos\\cuentadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\program.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\program.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\bancoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\bancoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\cuentarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\cuentarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\movimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\movimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\models\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\data\\bancodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\data\\bancodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\icuentarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\icuentarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\repositories\\imovimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\repositories\\imovimientorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\dtos\\reporteestadocuentadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\dtos\\reporteestadocuentadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|h:\\users\\juan felipe\\documents\\devsu\\proyecto banco\\bancoapi\\dtos\\clientedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC1551CE-43EE-01FE-255C-27F52E97054B}|BancoApi\\BancoApi.csproj|solutionrelative:bancoapi\\dtos\\clientedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BancoApi\\appsettings.Development.json",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\appsettings.Development.json",
+              "RelativeToolTip": "BancoApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T23:53:21.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BancoApi\\appsettings.json",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\appsettings.json",
+              "RelativeToolTip": "BancoApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T23:46:47.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchsettings.json",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\launchsettings.json",
+              "RelativeDocumentMoniker": "BancoApi\\launchsettings.json",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\launchsettings.json",
+              "RelativeToolTip": "BancoApi\\launchsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T23:20:17.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Program.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Program.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Program.cs",
+              "RelativeToolTip": "BancoApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:41:24.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Startup.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Startup.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Startup.cs",
+              "RelativeToolTip": "BancoApi\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:18:15.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CuentaRepository.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\CuentaRepository.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\CuentaRepository.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\CuentaRepository.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\CuentaRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA5wBUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:17:19.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\ClienteRepository.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:16:58.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Movimiento.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Models\\Movimiento.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Models\\Movimiento.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Models\\Movimiento.cs",
+              "RelativeToolTip": "BancoApi\\Models\\Movimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:16:43.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Models\\Cuenta.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Models\\Cuenta.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Models\\Cuenta.cs",
+              "RelativeToolTip": "BancoApi\\Models\\Cuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:16:34.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Models\\Cliente.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Models\\Cliente.cs",
+              "RelativeToolTip": "BancoApi\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:16:20.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BancoDbContext.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Data\\BancoDbContext.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Data\\BancoDbContext.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Data\\BancoDbContext.cs",
+              "RelativeToolTip": "BancoApi\\Data\\BancoDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:14:59.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovimientoService.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Services\\MovimientoService.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Services\\MovimientoService.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Services\\MovimientoService.cs",
+              "RelativeToolTip": "BancoApi\\Services\\MovimientoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:14:32.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:11:52.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MovimientoRepository.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\MovimientoRepository.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\MovimientoRepository.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\MovimientoRepository.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\MovimientoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:11:47.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:11:42.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\IRepository.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:11:23.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IMovimientoRepository.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IMovimientoRepository.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\IMovimientoRepository.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IMovimientoRepository.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\IMovimientoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:11:22.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICuentaRepository.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\ICuentaRepository.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\ICuentaRepository.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\ICuentaRepository.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\ICuentaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:11:07.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Repositories\\IClienteRepository.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Repositories\\IClienteRepository.cs",
+              "RelativeToolTip": "BancoApi\\Repositories\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:11:17.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimientoDtos.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\MovimientoDtos.cs",
+              "RelativeDocumentMoniker": "BancoApi\\DTOs\\MovimientoDtos.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\MovimientoDtos.cs",
+              "RelativeToolTip": "BancoApi\\DTOs\\MovimientoDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:08:11.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ReporteEstadoCuentaDtos.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\ReporteEstadoCuentaDtos.cs",
+              "RelativeDocumentMoniker": "BancoApi\\DTOs\\ReporteEstadoCuentaDtos.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\ReporteEstadoCuentaDtos.cs",
+              "RelativeToolTip": "BancoApi\\DTOs\\ReporteEstadoCuentaDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:08:03.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClienteDtos.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\ClienteDtos.cs",
+              "RelativeDocumentMoniker": "BancoApi\\DTOs\\ClienteDtos.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\ClienteDtos.cs",
+              "RelativeToolTip": "BancoApi\\DTOs\\ClienteDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:07:39.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Controllers\\ReportesController.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "BancoApi\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:07:18.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovimientosController.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\MovimientosController.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Controllers\\MovimientosController.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\MovimientosController.cs",
+              "RelativeToolTip": "BancoApi\\Controllers\\MovimientosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:07:12.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CuentasController.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\CuentasController.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Controllers\\CuentasController.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\CuentasController.cs",
+              "RelativeToolTip": "BancoApi\\Controllers\\CuentasController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:06:27.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "BancoApi\\Controllers\\ClientesController.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "BancoApi\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwCIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:01:34.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BancoApi",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\BancoApi.csproj",
+              "RelativeDocumentMoniker": "BancoApi\\BancoApi.csproj",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\BancoApi.csproj",
+              "RelativeToolTip": "BancoApi\\BancoApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T03:58:00.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "09d0a89d-ad83-4b2d-8f2e-6180942191fe",
+        "Display": 1,
+        "X": -63,
+        "Y": 62,
+        "Width": 1578,
+        "Height": 449,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CuentaDtos.cs",
+              "DocumentMoniker": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\CuentaDtos.cs",
+              "RelativeDocumentMoniker": "BancoApi\\DTOs\\CuentaDtos.cs",
+              "ToolTip": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\DTOs\\CuentaDtos.cs",
+              "RelativeToolTip": "BancoApi\\DTOs\\CuentaDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:07:30.272Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
