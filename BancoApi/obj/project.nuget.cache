@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6os7IitOHDY=",
+  "dgSpecHash": "ERVqACTp19E=",
   "success": true,
-  "projectFilePath": "H:\\Users\\Juan Felipe\\Documents\\Devsu\\Proyecto Banco\\BancoApi\\BancoApi.csproj",
+  "projectFilePath": "C:\\Users\\Juan Felipe\\source\\repos\\JuanFGonzalez8\\Full-Stack-BP-devsu\\BancoApi\\BancoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juan Felipe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Juan Felipe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

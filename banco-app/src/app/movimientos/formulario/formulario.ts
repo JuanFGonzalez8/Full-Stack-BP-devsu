@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+ import { saveAs } from 'file-saver';
 
 save() {
   if (this.form.invalid) return;
