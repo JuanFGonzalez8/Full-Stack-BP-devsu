@@ -1,18 +1,25 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormControl, Validators ,FormBuilder } from '@angular/forms'; 
+import {  Validators ,FormBuilder,FormGroup } from '@angular/forms'; 
+import { ReporteEstadoCuenta, ReportesService } from '../reportes';
 
 
 // reportes/estado-cuenta.component.ts
 export class EstadoCuentaComponent {
-  form = this.fb.group({
-    clienteId: ['', Validators.required],
-    desde: ['', Validators.required],
-    hasta: ['', Validators.required],
-    incluirPdf: [true]
+   form: FormGroup;
+  constructor(private fb: FormBuilder, private svc: ReportesService) {
+    this.form = this.fb.group({
+        clienteId: ['', Validators.required],
+        desde: ['', Validators.required],
+        hasta: ['', Validators.required],
+        incluirPdf: [true]
   });
-  data?: ReporteEstadoCuentaResponse;
 
-  constructor(private fb: FormBuilder, private svc: ReportesService) {}
+  }
+
+  
+  data?: ReporteEstadoCuenta;
+
+  
 
   consultar() {
     const { clienteId, desde, hasta, incluirPdf } = this.form.value as any;

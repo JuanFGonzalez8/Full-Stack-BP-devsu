@@ -2,11 +2,15 @@ import { Component ,OnInit} from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms'; 
 import { FormBuilder } from '@angular/forms';
 import { Routes ,ActivatedRoute ,Router} from '@angular/router';
+import { ClientesService } from '../clientes';
 
-// clientes/form-cliente.component.ts
+
 @Component({ templateUrl: './form-cliente.component.html' })
 export class FormClienteComponent implements OnInit {
-  form = this.fb.group({
+  form: FormGroup;
+
+  constructor(private fb: FormBuilder, private svc: ClientesService, private router: Router, private route: ActivatedRoute) {
+    this.form = this.fb.group({
     nombre: ['', Validators.required],
     genero: ['', Validators.required],
     edad: [18, [Validators.required, Validators.min(18)]],
@@ -17,7 +21,7 @@ export class FormClienteComponent implements OnInit {
     estado: [true]
   });
 
-  constructor(private fb: FormBuilder, private svc: ClientesService, private router: Router, private route: ActivatedRoute) {}
+  }
 
   ngOnInit() { /* cargar si editar */ }
 
